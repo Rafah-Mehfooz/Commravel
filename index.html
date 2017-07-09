@@ -127,7 +127,7 @@
                     </a>
                     <img class="img-responsive" src="img/shopping.jpeg" />
                     <h4>Now you can buy anything from anywhere around the world without letting any shipping barries affect you
-                        </h4>
+                    </h4>
                     <h4>Just let the travelers coming to your country buy and bring producs from overseas for you</h4>
                 </div>
                 <div id="shipping-section" class="col-xs-12 col-md-6 text-center">
@@ -249,35 +249,35 @@
                     </div>
                 </div>
                 <div id="traveler-perks">
-                        <section class="text-center">
-                            <h1>Be a Traveler and...<br></h1>
-                        </section>
-                        <div class="section-align-center">
-                            <div class="col-xs-4 perks-container ">
-                                <div class="perks-outline">
-                                    <img class="" src="img/250x250-circle.png" />
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
+                    <section class="text-center">
+                        <h1>Be a Traveler and...<br></h1>
+                    </section>
+                    <div class="section-align-center">
+                        <div class="col-xs-4 perks-container ">
+                            <div class="perks-outline">
+                                <img class="" src="img/250x250-circle.png" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
-                            <div class="col-xs-4 perks-container ">
-                                <div class="perks-outline">
-                                    <img class="" src="img/250x250-circle.png" />
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
+                        </div>
+                        <div class="col-xs-4 perks-container ">
+                            <div class="perks-outline">
+                                <img class="" src="img/250x250-circle.png" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
-                            <div class="col-xs-4 perks-container ">
-                                <div class="perks-outline">
-                                    <img class="" src="img/250x250-circle.png" />
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
+                        </div>
+                        <div class="col-xs-4 perks-container ">
+                            <div class="perks-outline">
+                                <img class="" src="img/250x250-circle.png" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- /.row -->
+
             </div>
-            <!-- /.container -->
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
     </section>
     <!-- /.section -->
 
@@ -548,6 +548,159 @@
         <!-- /.container -->
     </section>
     <!-- /.section -->
+
+    <section id="page-section-wrapper">
+        <div class="container">
+            <div class="row row-content">
+                <section class="text-left">
+                    <h1>Post A Request for Shopping<br></h1>
+                </section>
+                <div id="" class="col-xs-12 col-sm-8 box-layout">
+                    <div>
+                        <form class="form" >
+                            <!-- Form Location Wrapper -->
+                            <div class="form-location-wrapper">
+                                <h3 class="text-center">Your Location</h3>
+                                <div class="form-group">
+                                    <label for="your-country">Country:</label>
+                                    <input type="text" class="form-control" id="your-country" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="your-city">City:</label>
+                                    <input type="text" class="form-control" id="your-city" required="true">
+                                </div>
+
+                                <br>
+
+                                <h3 class="text-center">Item's Location</h3>
+                                <div class="form-group">
+                                    <label for="your-country">Country:</label>
+                                    <input type="text" class="form-control" id="your-country" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="your-city">City(Optional):</label>
+                                    <input type="text" class="form-control" id="your-city">
+                                </div>
+                            </div>
+                            <!-- ./Form Location Wrapper -->
+
+                            <!-- Form Item Wrapper -->
+                            <div class="form-item-wrapper">
+                                <div id="item-1" class="for-items">
+
+                                    <!-- Form Name and Link Wrapper -->
+                                    <h3 class="text-center">Item 1</h3>
+                                    <div class="form-group">
+                                        <label for="item-name">Name of the Item</label>
+                                        <input type="text" class="form-control" id="item-name" required="true">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="item-link">Link:</label>
+                                        <input type="text" class="form-control" id="item-link" required="true">
+                                    </div>
+                                    <!-- ./Form Name and Link Wrapper -->
+
+                                    <!-- Form Image Wrapper -->
+                                    <div class="form-group">
+                                        <label>Upload Image(Optional): No more than 5Mb</label> <br>
+                                        <label class="btn btn-default btn-lg" for="my-file-selector">
+                                            <input id="my-file-selector" type="file" style="display:none" 
+                                            onchange="$('#upload-file-info').html(this.files[0].name)">
+                                            Upload <i class="fa fa-icon fa-arrow-up"></i>
+                                        </label>
+                                        <span class='label label-info' id="upload-file-info">No File Choosen</span>
+                                    </div>
+                                    <!-- ./Form Image Wrapper -->
+
+                                    <!-- Price Container -->
+                                    <div class="price-container">
+                                        <div class="form-group">
+                                            <label for="item-price">Price of the item:</label>
+                                            <input type="text" class="form-control price-box" id="item-price" required="true">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="item-quantity">Quantity:</label>
+                                            <input type="text" class="form-control" id="item-quantity" required="true">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="total-price">Total:</label>
+                                            <input type="text" class="form-control price-box" id="total-price" required="true">
+                                        </div>
+                                        <div class="form-group">
+                                            <a class="btn btn-default"><i class="fa fa-check fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- ./Price Container -->
+                                </div>
+
+                            </div>
+                            <!-- Form Item Wrapper -->
+
+                            <!-- Form Delivery -->
+                            <div class="form-delivery-wrapper">
+                                <h3 class="text-center">Delivery method</h3>
+
+                                <!-- Form Delivery Radio Buttons -->
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio">Self Collect
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio">Home Delivery
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- ./Form Delivery Radio Buttons -->
+
+                                <!-- Form Delivery Address -->
+                                <div class="form-group">
+                                    <label for="delivery-address">Address:</label>
+                                    <input type="text" class="form-control" id="delivery-address1" required="true" placeholder="Line1">
+                                    <input type="text" class="form-control" id="delivery-address2" required="true" placeholder="Line2">
+                                </div>
+                                <!-- ./Form Delivery Address  -->
+
+                            </div>
+                            <!-- ./Form Delivery -->
+
+                            <!-- Form Offer -->
+                            <div class="form-offer-wrapper">
+                                <div class="form-group">
+                                    <label for="award-price">Monetary award for the traveler:</label>
+                                    <input type="text" class="form-control price-box" id="award-price" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <a class="btn btn-default">Offer Pickup From Airport</a>
+                                </div>
+                                <div class="form-group">
+                                    <label for="other-reward">Any other reward(Optional):</label>
+                                    <textarea type="textarea" class="form-control" id="other-reward" required="false"></textarea>
+                                </div>
+                            </div>
+                            <!-- ./Form Offer -->
+
+                            <!-- Form Details -->
+                            <div class="form-details-wrapper">
+                                <div class="form-group">
+                                    <label for="other-information">Any other infromation you want to share with the travelers (Optional):</label>
+                                    <textarea type="textarea" class="form-control" id="other-information" required="false"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <a class="btn btn-default">Save As Draft</a>
+                                </div>
+                                <div class="form-group">
+                                    <a class="btn btn-default btn-success">Post Request</a>
+                                </div>
+                            </div>
+                            <!-- ./Form Details -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
