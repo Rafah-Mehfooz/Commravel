@@ -1,54 +1,91 @@
-body, .navbar-brand {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+body,
+.navbar-brand {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-/*Navbar Button*/
-.cs-btn-spacing{
-    margin:7.5px 0px; 
+.block {
+    display: block;
 }
 
-.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+a.green-text {
+    color: green;
+}
+.no-padding{
+    padding:0px;
+}
+
+.no-right-padding{
+    padding-right:0px;
+}
+.no-left-padding{
+    padding-left:0px;
+}
+/*Navbar Button*/
+
+.cs-btn-spacing {
+    margin: 7.5px 0px;
+}
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
     max-height: 400px;
 }
+
 
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 1px;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .btn-light {
     border-radius: 1px;
     color: #333;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
     color: #333;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
+.primary-btn {
+    color: white;
+    background: orange;
+}
+
+
 /*Banner Image Text*/
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
+
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
@@ -66,88 +103,99 @@ a:hover{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding:5px;
+    padding: 5px;
 }
-.hero-placeholder-btn{
+
+.hero-placeholder-btn {
     display: inline-block;
     max-width: 550px;
     margin: 0px auto !important;
     float: none;
     width: 100%;
-
 }
-.hero-placeholder-btn button{
+
+.hero-placeholder-btn button {
     border-radius: 5px;
     margin: 10px 25px;
-    width:200px;
+    width: 200px;
     display: inline-block;
 }
 
-
-.row-content{
-    padding:50px 15px 50px;
+.row-content {
+    padding: 50px 15px 50px;
 }
-.row-content > div {
+
+.row-content>div {
     padding: 5px;
 }
-#services-section div img{
+
+#services-section div img {
     border-radius: 5px;
     box-sizing: border-box;
 }
-#services-section #shopping-section img{
+
+#services-section #shopping-section img {
     box-shadow: 3px 6px 12px -5px #d43b3b;
 }
-#services-section #shipping-section img{
+
+#services-section #shipping-section img {
     box-shadow: 3px 6px 12px -5px #3375f3;
 }
-#services-section #shopping-section h4, 
-#services-section #shipping-section h4{
+
+#services-section #shopping-section h4,
+#services-section #shipping-section h4 {
     max-width: 500px;
     text-align: center;
     font-size: large;
-    margin:15px auto;
+    margin: 15px auto;
 }
 
-.section-center-btn{
+.section-center-btn {
     display: block !important;
-    min-width:200px;
-    margin:15px auto !important;
+    min-width: 200px;
+    margin: 15px auto !important;
 }
+
 .section-align-center {
     display: inline-block;
     text-align: center;
     margin: 30px auto;
     max-width: 100%;
 }
+
+
 /*How it works Section*/
-#howitworks-section{
+
+#howitworks-section {
     background-color: #ebebeb;
 }
 
-#howitworks-section .section-align-center div{
+#howitworks-section .section-align-center div {
     max-width: 18%;
     vertical-align: middle;
     display: inline-block;
 }
 
-#howitworks-section .section-align-center img{
+#howitworks-section .section-align-center img {
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
 }
 
-#howitworks-section .section-align-center i{
+#howitworks-section .section-align-center i {
     vertical-align: middle;
     display: inline-block;
     margin: 0px 1% 75px;
     font-size: 2em;
 }
 
+
 /*Perks Section*/
-#perks-section .section-align-center .perks-container{
+
+#perks-section .section-align-center .perks-container {
     vertical-align: middle;
     display: inline-block;
-    padding:0px 5%
+    padding: 0px 5%
 }
 
 #perks-section .section-align-center .perks-container .perks-outline {
@@ -167,45 +215,55 @@ a:hover{
 #perks-section .section-align-center .perks-container p {
     padding: 15px 0px 0px;
 }
+
+
 /*Recent Requests and Trips*/
+
 #recent-posted-section .recent-inner .top-section {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }
+
 #recent-posted-section .recent-inner .top-section .user {
     vertical-align: middle;
     display: inline-block;
 }
 
-#recent-posted-section .recent-inner .top-section .user span{
+#recent-posted-section .recent-inner .top-section .user span {
     font-size: 1.00em;
     vertical-align: middle;
-    margin-left:5px;
+    margin-left: 5px;
 }
+
 #recent-posted-section .recent-inner .top-section .social-icons {
     vertical-align: middle;
     display: inline-block;
 }
-#recent-posted-section .recent-inner .top-section .social-icons i{
+
+#recent-posted-section .recent-inner .top-section .social-icons i {
     margin-right: 4px;
     font-size: 1.5em;
 }
-#recent-posted-section .recent-inner .middle-section{
+
+#recent-posted-section .recent-inner .middle-section {
     width: 100%;
     display: inline-block;
 }
+
 #recent-posted-section .recent-inner .middle-left-section {
     min-width: 130px;
     width: 25%;
     display: inline-block;
     vertical-align: middle;
 }
+
 #recent-posted-section .recent-inner .middle-left-section ul {
     padding: 0px;
     margin: 10px 0px;
 }
+
 #recent-posted-section .recent-inner .middle-left-section ul li {
     list-style: none;
     display: inline-block;
@@ -214,21 +272,25 @@ a:hover{
     font-size: 1.25em;
 }
 
-#recent-posted-section .recent-inner .middle-left-section ul li i{
-    margin-right:5px;
+#recent-posted-section .recent-inner .middle-left-section ul li i {
+    margin-right: 5px;
 }
+
 #recent-posted-section .recent-inner .middle-center-section {
     width: 50%;
     display: block;
-    float:right;
+    float: right;
 }
-#recent-posted-section .recent-inner .middle-center-section h3{
+
+#recent-posted-section .recent-inner .middle-center-section h3 {
     font-size: 1.25em;
 }
-#recent-posted-section .recent-inner .bottom-section{
+
+#recent-posted-section .recent-inner .bottom-section {
     display: inline-block;
-    width:100%;
+    width: 100%;
 }
+
 #recent-posted-section .recent-outer {
     padding: 15px;
     background: #78a0d1;
@@ -237,45 +299,175 @@ a:hover{
     border: 1px solid #fff;
     background: linear-gradient(170deg, #49e4af, #1548c6, #6ad764, #e8c384);
     background-size: 800% 800%;
-
     -webkit-animation: AnimationName 12s ease infinite;
     -moz-animation: AnimationName 12s ease infinite;
     -o-animation: AnimationName 12s ease infinite;
     animation: AnimationName 12s ease infinite;
-
     @-webkit-keyframes AnimationName {
-        0%{background-position:0% 17%}
-        50%{background-position:100% 84%}
-        100%{background-position:0% 17%}
+        0% {
+            background-position: 0% 17%
+        }
+        50% {
+            background-position: 100% 84%
+        }
+        100% {
+            background-position: 0% 17%
+        }
     }
     @-moz-keyframes AnimationName {
-        0%{background-position:0% 17%}
-        50%{background-position:100% 84%}
-        100%{background-position:0% 17%}
+        0% {
+            background-position: 0% 17%
+        }
+        50% {
+            background-position: 100% 84%
+        }
+        100% {
+            background-position: 0% 17%
+        }
     }
     @-o-keyframes AnimationName {
-        0%{background-position:0% 17%}
-        50%{background-position:100% 84%}
-        100%{background-position:0% 17%}
+        0% {
+            background-position: 0% 17%
+        }
+        50% {
+            background-position: 100% 84%
+        }
+        100% {
+            background-position: 0% 17%
+        }
     }
-    @keyframes AnimationName { 
-        0%{background-position:0% 17%}
-        50%{background-position:100% 84%}
-        100%{background-position:0% 17%}
+    @keyframes AnimationName {
+        0% {
+            background-position: 0% 17%
+        }
+        50% {
+            background-position: 100% 84%
+        }
+        100% {
+            background-position: 0% 17%
+        }
     }
 }
 
-@media (max-width: 767px) {
-    #perks-section .section-align-center .perks-container{
-        padding:0px 1%;
-    }
-    #recent-posted-section .recent-inner .middle-left-section {
-        min-width: 125px;
-    }
 
+/* Pages Form */
+
+.section-break {
+    border: 0.1px solid lightgray;
+    border: 0.1px solid lightgray;
+    padding: 25px 50px;
+    display: inline-block;
+    width: 100%;
 }
+
+.form-item-wrapper {}
+
+.form-item-wrapper .form-items {
+    border: 1px solid goldenrod;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+.form-item-wrapper .form-items #image-upload-btn {
+    background: orange;
+    color: white;
+}
+
+.form-item-wrapper .form-items #upload-file-info {
+    margin: 5px;
+}
+
+.form-item-wrapper .price-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-item-wrapper .price-container .form-group {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-item-wrapper .price-container label {
+    width: 80px;
+    float: left;
+}
+
+.form-item-wrapper .price-container input {
+    width: 75px;
+    float: right;
+}
+
+.price-box::after {
+    content: '$';
+    font-size: 2em;
+    vertical-align: middle;
+    float: right;
+    margin: -5px 2px 0px;
+}
+
+.form-address-section {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-address-section input {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.form-offer-wrapper .reward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-offer-wrapper .reward label {
+    width: 110px;
+    float: left;
+}
+
+.form-offer-wrapper .reward input {
+    width: 90px;
+    float: right;
+}
+
+
+/*Sign UP PAge*/
+
+#login-form .row-content,
+#signup-form .row-content {
+    padding: 20px 15px;
+}
+
+.row .center-form {
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.form-bottom-spans {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-bottom-spans label {
+    padding: 0px;
+}
+
+.social-login-btns {
+    width: 100%;
+}
+
+hr {
+    margin: 5px 0px 10px;
+}
+
 
 /*Responsive Layout for How it Works*/
+
 @media (max-width: 479px) {
     .section-align-center {
         display: block;
@@ -283,52 +475,66 @@ a:hover{
         padding: 0px;
         max-width: 100%;
     }
-
-    #howitworks-section .section-align-center div{
+    #howitworks-section .section-align-center div {
         max-width: 100%;
         display: block;
     }
-    #howitworks-section .section-align-center img{
+    #howitworks-section .section-align-center img {
         max-width: 100%;
         margin: 0px auto;
         display: block;
     }
-    #howitworks-section .section-align-center i{
+    #howitworks-section .section-align-center i {
         display: inline-block;
         margin: 5px auto 15px;
         transform: rotate(90deg);
     }
-
-    #perks-section .section-align-center{
-        width:100%;
+    #perks-section .section-align-center {
+        width: 100%;
     }
-    #perks-section .section-align-center .perks-container{
-        padding:0px 1%;
-        width:100%;
+    #perks-section .section-align-center .perks-container {
+        padding: 0px 1%;
+        width: 100%;
     }
-    #perks-section .section-align-center .perks-container .perks-outline{
+    #perks-section .section-align-center .perks-container .perks-outline {
         margin: 10px auto;
     }
-    #perks-section .section-align-center .perks-container img{
+    #perks-section .section-align-center .perks-container img {
         margin: 0px auto;
     }
     #recent-posted-section .recent-inner .middle-left-section {
         min-width: 100px;
         font-size: 0.825em;
     }
-    #recent-posted-section .recent-inner .middle-center-section h3{
+    #recent-posted-section .recent-inner .middle-center-section h3 {
         font-size: 0.875em;
+    }
+    .section-break {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    #perks-section .section-align-center .perks-container {
+        padding: 0px 1%;
+    }
+    #recent-posted-section .recent-inner .middle-left-section {
+        min-width: 125px;
+    }
+    .section-break {
+        padding: 25px;
     }
 }
 
 
-
 /* Responsive Menu Over-ride for bigger screens*/
+
 @media (max-width: 1199px) {
     .navbar-header {
         float: none;
     }
-    .navbar-left,.navbar-right {
+    .navbar-left,
+    .navbar-right {
         float: none !important;
     }
     .navbar-toggle {
@@ -336,7 +542,7 @@ a:hover{
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -356,7 +562,12 @@ a:hover{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .collapse.in{
-        display:block !important;
+    .collapse.in {
+        display: block !important;
+    }
+    .row .center-form {
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid lightgray;
     }
 }
