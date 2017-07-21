@@ -19,6 +19,11 @@ a:hover {
     display: inline-block;
 }
 
+.full-width{
+    width:100%;
+}
+
+
 a.green-text {
     color: green;
 }
@@ -77,6 +82,9 @@ a.green-text {
     background: orange;
 }
 
+.light-background{
+    background: gray;
+}
 
 /*Banner Image Text*/
 
@@ -407,6 +415,14 @@ a.green-text {
     margin: -5px 2px 0px;
 }
 
+.weight-box::after {
+    content: 'Kg';
+    font-size: 2em;
+    vertical-align: middle;
+    float: right;
+    margin: -5px 2px 0px;
+}
+
 .form-address-section {
     display: inline-block;
     width: 100%;
@@ -417,18 +433,19 @@ a.green-text {
     margin-top: 10px;
 }
 
-.form-offer-wrapper .reward {
+.reward {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.form-offer-wrapper .reward label {
+.reward label {
     width: 110px;
     float: left;
+    font-size:0.875em;
 }
 
-.form-offer-wrapper .reward input {
+.reward input {
     width: 90px;
     float: right;
 }
